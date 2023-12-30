@@ -1,4 +1,4 @@
-# Учебный проект студента факультета Веб-разработки.
+# Дипломный проект: "Movies Explorer" (backend)
 
 
 ## Директории
@@ -15,3 +15,10 @@
 `npm run dev` — запускает сервер с hot-reload
 
 ## Ссылка на репозиторий
+https://github.com/AleksLomako/movies-explorer-api
+
+## Ссылки на проект
+
+IP 84.252.129.120
+
+Backend https://api.alekslomako.movies.nomoredomainsmonster.ru

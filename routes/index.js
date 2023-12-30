@@ -4,15 +4,12 @@ const { createUser, loginUser } = require('../controllers/users');
 const { validateRegisterUser, validateLoginUser } = require('../middlewares/validation');
 const auth = require('../middlewares/auth');
 const { requestLogger, errorLogger } = require('../middlewares/logger');
-const corsMiddleware = require('../middlewares/corsMiddleware');
 const UserRouter = require('./users');
 const MovieRouter = require('./movies');
 const NotFoundError = require('../errors/NotFoundError');
 
 // Логгер запросов
 router.use(requestLogger);
-
-router.use(corsMiddleware);
 
 router.get('/crash-test', () => {
   setTimeout(() => {
